@@ -1,6 +1,11 @@
 /* CUSTOM PROPS */
 :root {
-  --text-color: #000000;
+  --cyan: #5fb4a2;
+  --dark-blue: #203a4c:
+  --grayish-dark-blue: #33323d;
+  --light-grey-bg: #fafafa;
+  --light-grey-text: #eaeaeb;
+  --error-color: #f43030;
 }
 
 /* GLOBAL  */
