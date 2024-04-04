@@ -8,6 +8,73 @@
   --error-color: #f43030;
 }
 
+/* FONT-FACE  */
+@font-face {
+  font-family: "Karla";
+  src: url("/fonts/Karla-Bold.woff2") format("woff2"),
+      url("/fonts/Karla-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("/fonts/PublicSans-Bold.woff2") format("woff2"),
+      url("/fonts/PublicSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ibarra Real Nova";
+  src: url("/fonts/IbarraRealNova-Bold.woff2") format("woff2"),
+      url("/fonts/IbarraRealNova-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ibarra Real Nova";
+  src: url("/fonts/IbarraRealNova-Regular.woff2") format("woff2"),
+      url("/fonts/IbarraRealNova-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("/fonts/PublicSans-BoldItalic.woff2") format("woff2"),
+      url("/fonts/PublicSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("/fonts/PublicSans-Regular.woff2") format("woff2"),
+      url("/fonts/PublicSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("/fonts/PublicSans-SemiBoldItalic.woff2") format("woff2"),
+      url("/fonts/PublicSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+
 /* GLOBAL  */
 html {
   box-sizing: border-box;
