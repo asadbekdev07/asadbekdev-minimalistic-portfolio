@@ -190,6 +190,13 @@ select:-webkit-autofill:focus {
   opacity: 0.6;
 }
 
+.site-header__sitenav-toggler {
+  display: none;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .sitenav__list {
   display: flex;
   padding: 0;
@@ -203,6 +210,7 @@ select:-webkit-autofill:focus {
 
 .sitenav__link {
   display: block;
+  width: 100%;
   font-size: 12px;
   letter-spacing: 2px;
   color: var(--grayish-dark-blue);
@@ -216,6 +224,46 @@ select:-webkit-autofill:focus {
 
 .sitenav__link:active {
   opacity: 0.6;
+}
+
+@media only screen and (max-width: 550px) {
+  .site-header {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 20px;
+  }
+
+  .site-header__sitenav-toggler {
+    display: block;
+    padding: 0;
+  }
+
+  .site-header__sitenav {
+    display: none;
+  }
+
+  .site-header--open .site-header__sitenav {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .sitenav__list {
+    flex-direction: column;
+  }
+
+  .sitenav__item {
+    width: 100%;
+  }
+
+  .sitenav__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
 }
 
 
