@@ -11,30 +11,26 @@
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="site-header__container container">
-      <a class="site-header__logo logo" href="#">
-        <img class="logo__img" src="img/site-logo.svg" alt="Minimalistic portfolio logo" width="60" height="32">
-      </a>
+<!-- SITE-HEADER -->
+<header class="site-header">
+  <div class="site-header__container container">
+    <a class="site-header__logo logo" href="index.html">
+      <img class="logo__img" src="img/site-header-logo.svg" alt="Portfolio logo" width="61" height="32">
+    </a>
 
-      <button class="site-header__sitenav-toggler" type="button">
-        <img class="sitenav-toggler__img" src="img/burger-icon.png" alt="burger icon" width="24" height="13">
-      </button>
+    <!-- SITENAV -->
+    <nav class="site-header__sitenav sitenav sitenav--site-header">
+      <ul class="sitenav__list">
+        <li class="sitenav__item sitenav__item--active"><a class="sitenav__link" href="index.html">Home</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="portfolio.html">Portfolio</a></li>
+        <li class="sitenav__item"><a class="sitenav__link" href="contact.html">Contact me</a></li>
+      </ul>
+    </nav>
 
-      <div class="site-header__sitenav">
-        <nav class="sitenav">
-          <ul class="sitenav__list">
-            <li class="sitenav__item"><a class="sitenav__link" href="#">Home</a></li>
-            <li class="sitenav__item"><a class="sitenav__link" href="#">Portfolio</a></li>
-            <li class="sitenav__item"><a class="sitenav__link" href="#">Contact me</a></li>
-          </ul>
-        </nav>
-      </div>
+    <button class="site-header__toggler" type="button" aria-label="Menu"></button>
+  </div>
+</header>
 
-    </div>
-  </header>
-
-
-<script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

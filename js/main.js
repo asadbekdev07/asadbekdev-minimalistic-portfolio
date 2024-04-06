@@ -1,6 +1,12 @@
-const elSitenavToggler = document.querySelector(".site-header__sitenav-toggler");
-const elSiteHeader = document.querySelector(".site-header");
+const modifiers = {
+  elSiteHeaderOpen: "site-header--open"
+}
 
-elSitenavToggler.addEventListener("click", function () {
-  elSiteHeader.classList.toggle("site-header--open");
-});
+const elSiteHeader = document.querySelector(".site-header");
+const elSiteHeaderToggler = elSiteHeader.querySelector(".site-header__toggler");
+
+if (elSiteHeaderToggler) {
+  elSiteHeaderToggler.addEventListener("click", function () {
+    elSiteHeader.classList.toggle(modifiers.elSiteHeaderOpen);
+  });
+}
